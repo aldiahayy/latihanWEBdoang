@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lalu Muhammad Zohri</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark text-light">
+  <!-- Header -->
+  <header class="text-center p-4 bg-secondary">
+    <h1>Lalu Muhammad Zohri</h1>
+    <p>Pelari tercepat asal Indonesia</p>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-info" href="#">Zohri</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#biografi">Biografi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#prestasi">Prestasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Komentar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="container py-5">
+  <!--Section-->
+    <!-- Biografi -->
+    <section id="biografi" class="mb-5">
+      <h2 class="text-info mb-3">Biografi Singkat</h2>
+      <p>
+        <strong>Lalu Muhammad Zohri</strong> lahir pada 1 Juli 2000 di Lombok, Nusa Tenggara Barat. 
+        Ia adalah sprinter kebanggaan Indonesia yang dikenal setelah memenangkan medali emas 
+        pada Kejuaraan Dunia Atletik U-20 tahun 2018 di Finlandia.
+      </p>
+    </section>
+
+    <!-- Prestasi -->
+    <section id="prestasi" class="mb-5">
+      <h2 class="text-info mb-3">Prestasi dan Penghargaan</h2>
+      <table class="table table-dark table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Tahun</th>
+            <th>Ajang</th>
+            <th>Prestasi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2018</td>
+            <td>Kejuaraan Dunia Atletik U-20, Finlandia</td>
+            <td>Medali Emas 100 meter</td>
+          </tr>
+          <tr>
+            <td>2019</td>
+            <td>Asian Championships</td>
+            <td>Medali Perak 100 meter</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>SEA Games</td>
+            <td>Medali Perak 100 meter</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Galeri -->
+    <section id="galeri" class="mb-5 text-center">
+      <h2 class="text-info mb-3">Galeri Lalu Muhammad Zohri</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <img src="zohri1.jpg" alt="Zohri berlari" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="zohri2.jpg" alt="Zohri membawa bendera Indonesia" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="zohri3.jpg" alt="Zohri di podium" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Komentar -->
+    <section id="kontak" class="mb-5">
+      <h2 class="text-info mb-3">Tinggalkan Komentar</h2>
+      <form id="komentarForm" class="bg-secondary p-4 rounded">
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama</label>
+          <input type="text" id="nama" class="form-control" placeholder="Masukkan nama Anda">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Masukkan email Anda">
+        </div>
+        <div class="mb-3">
+          <label for="pesan" class="form-label">Komentar</label>
+          <textarea id="pesan" class="form-control" rows="3" placeholder="Tulis komentar Anda"></textarea>
+        </div>
+        <button type="submit" class="btn btn-info text-dark fw-bold">Kirim Komentar</button>
+      </form>
+
+      <!-- Daftar Komentar -->
+      <section class="mt-4">
+        <h3 class="text-info mb-3">Komentar Terbaru</h3>
+        <div id="daftarKomentar"></div>
+      </section>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-dark border-top border-secondary">
+    <p>© 2025 Profil Lalu Muhammad Zohri | Dibuat oleh Aldi Salam D0224043</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
