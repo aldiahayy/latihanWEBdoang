@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel</title>
+</head>
+<body>
+
+    <h1>tabel</h1>
+    <h4>tabel standar</h4>
+    <!-- <table> </table> -->
+    <table border="1">
+        <!-- header <th> </th> -->
+        <!-- baris <tr> </tr> -->
+        <!-- data <td> </td> -->
+        
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+
+    <h4>dengan header</h4>
+    <table border="1">
+        <tr>
+            <th>Senin</th>
+            <td>10:00</td>
+            <td>12:00</td>
+            <td>14:00</td>
+        </tr>
+        <tr>
+            <th>Selasa</th>
+            <td>10:00</td>
+            <td>12:00</td>
+            <td>14:00</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border="1">
+        
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <td>10:00</td>
+            <td>10:00</td>
+        </tr>
+        <tr>
+            <td>11:00</td>
+            <td>11:00</td>
+        </tr>
+        <tr>
+            <td>14:00</td>
+            <td>14:00</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border="1">
+        <th></th>
+        <th>Senin</th>
+        <tr>
+            <th>10:00</th>
+            <td>Berangkat Sekolah</td>
+        </tr>
+        <tr>
+            <th>12:00</th>
+            <td>Makan Siang</td>
+        </tr>
+    </table>
+
+    <h4>alokasi baris dan kolom</h4>
+    <table border="1">
+        <th></th>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <th>10:00</th>
+            <td>Berangkat Sekolah</td>
+            <td>Berangkat Olahraga</td>
+        </tr>
+        <tr>
+            <!-- rowspan="masukan nilai yang ingin diambil baris nya" -->
+            <th rowspan="2">12:00</th>
+            <!-- colspan="masukan nilai yang ingin diambil kolom nya" -->
+            <td colspan="2">Makan Siang</td>
+        </tr>
+        <tr>
+        <td colspan="2">Sholat Dhuzur</td>
+        </tr>
+    </table>
+
+</body>
+</html>
