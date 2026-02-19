@@ -1,0 +1,80 @@
+/* untuk CSS eksternal itu strukturnya: */
+/*selector{
+property : value;
+}*/
+
+
+/* Universal selector */
+/* *{
+property : value;
+} */
+*{
+    font-family: tahoma;
+}
+
+
+/* type selector */
+/* tag{
+property : value;
+} */
+h1{
+    font-size:30px;
+}
+
+
+/* class selector */
+/* .namaClass{
+property : value;
+} */
+.artikel{
+    font-size: 20px;
+}
+
+.credit{
+    font-size: 12px;
+}
+
+.penulis{
+    color: crimson;
+}
+
+.tanggal{
+    color: darkolivegreen;
+}
+
+
+/* id selector */
+/* #namaId{
+property : value;
+} */
+#artikel-1{
+    color: darkgoldenrod;
+}
+
+
+/* child selector */
+/* tagInduk>tagAnak{
+property : value;
+} */
+p>span{
+    color:blueviolet;
+}
+
+
+/* first child selector */
+/* tagSebelum+tagSetelah{
+property : value;
+} */
+h3+p{
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* all child selector */
+/* tagAwal~tagSetelahTagAwal{
+property : value;
+} */
+h1~p{
+    text-align: justify;
+}
