@@ -1,0 +1,82 @@
+/* untuk CSS eksternal itu strukturnya: */
+/*selector{
+property : value;
+}*/
+
+
+/* Universal selector */
+/* *{
+property : value;
+} */
+*{
+    font-family: Arial;
+}
+
+
+/* type selector */
+/* tag{
+property : value;
+} */
+h1{
+    color:chocolate;
+}
+h2{
+    color:darkblue;
+}
+
+
+/* class selector */
+/* tag.namaClass{
+property : value;
+} */
+li.sarapan{
+    color: darkgoldenrod;
+}
+
+
+/* id selector */
+/* #namaId{
+property : value;
+} */
+#maksi_senin{
+    color: darkgreen;
+}
+
+
+/* child selector */
+/* tagInduk>tagAnak{
+property : value;
+} */
+p>b{
+    color:darkorange;
+}
+li>b{
+    color:darkslateblue;
+}
+
+
+/* desendant selector */
+/* tagInduk tagAnak{
+property : value;
+} */
+p b{
+    color:blue;
+}
+
+
+/* adjacent sibling selector */
+/* tagSebelum+tagSetelah{
+property : value;
+} */
+p+h2{
+    color: deeppink;
+}
+
+
+/* general sibling selector */
+/* tagAwal~tagSetelahTagAwal{
+property : value;
+} */
+h2~p{
+    font-family: 'Times New Roman';
+}
