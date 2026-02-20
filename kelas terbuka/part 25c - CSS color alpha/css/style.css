@@ -1,0 +1,37 @@
+body{
+    background-color: #efefef;
+    color: #efefef;
+}
+
+#artikel{
+    background-color: #a0a0a0;
+    padding: 20px;
+}
+
+
+h1{
+    background-color: rgb(255, 0, 119);
+    padding: 10px;
+}
+
+/* untuk rgb alpha itu nilai nya dari 0-1 */
+h2{
+    background-color: rgba(255, 0, 119, 0.5);
+    padding: 10px;
+}
+
+/* hue itu 0-360
+saturation itu 0-100%
+lightness itu 0-100% yang normal adalah 50% */
+.paragraf1{
+    background-color: hsl(150, 50%, 25%);
+    padding: 10px;
+}
+
+/* sama seperti di atas cuman ini ada alpha nya seperti rgb tadi
+background-color: hsla(hue, saturation, lightness, alpha); */
+/* alpha itu dari 0-1 */
+.paragraf2{
+    background-color: hsla(150, 50%, 50%, 0.5);
+    padding: 10px;
+}
