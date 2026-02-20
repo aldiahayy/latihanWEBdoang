@@ -1,0 +1,14 @@
+/* CSS INHERITANCE */
+
+body{
+    font-family: arial;
+    color: darkslategrey;
+    padding: 10px;
+}
+
+.intro{
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit; /*mengambil padding dari selector body*/
+    /* body itu adalah parent nya dan div itu adalah child nya */
+}
