@@ -1,0 +1,24 @@
+h1{
+    font-family: Georgia; /*mengubah font teks nya*/
+    font-size: xx-large;  /* salah satu cara mengubah ukuran teks nya */
+    font-weight: normal;  /* mengatur ketebalan pada teks nya */
+}
+
+.credit{
+    font-family: Verdana;       /*mengubah font teks nya*/
+    font-size: 11px;            /* salah satu cara mengubah ukuran teks nya */
+    font-weight: bold;          /* mengatur ketebalan pada teks nya */
+    font-style: italic;         /* memberikan gaya pada teks nya */
+    text-decoration: underline; /* memberikan dekorasi pada teks nya */
+}
+
+.tautan{
+    font-family: Arial, Helvetica, sans-serif; /*mengubah font teks nya*/
+    font-size: 80%;                           /* salah satu cara mengubah ukuran teks nya */
+    text-decoration: none;                     /* memberikan dekorasi pada teks nya */
+}
+
+.intro{
+    font-family: 'Segoe UI'; /*mengubah font teks nya*/
+    font-size: 1.2em;        /* salah satu cara mengubah ukuran teks nya */
+}
