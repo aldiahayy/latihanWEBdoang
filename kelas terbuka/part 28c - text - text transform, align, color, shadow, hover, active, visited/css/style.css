@@ -1,0 +1,51 @@
+h1{
+    font-family: Georgia;                 /*mengubah font teks nya*/
+    font-size: xx-large;                  /* salah satu cara mengubah ukuran teks nya */
+    font-weight: normal;                  /* mengatur ketebalan pada teks nya */
+    text-transform: uppercase;            /* mengubah seluruh teks nya menjadi huruf kapital semua */
+    text-align: center;                   /* mengatur posisi sebuah teks */
+    color: brown;                       /* mengubah warna teks nya */
+/* text-shadow: baris kolom buram warna; */
+    text-shadow: 10px 5px 5px black;    /* mengatur bayangan pada teks nya */
+    word-spacing: 0.5em;                  /* mengatur jarak spasi antar teks*/
+    letter-spacing: 5px;                  /* mengatur jarak spasi antar huruf*/
+}
+
+.credit{
+    font-family: Verdana;       /*mengubah font teks nya*/
+    font-size: 11px;            /* salah satu cara mengubah ukuran teks nya */
+    font-weight: bold;          /* mengatur ketebalan pada teks nya */
+    font-style: italic;         /* memberikan gaya pada teks nya */
+    text-decoration: underline; /* memberikan dekorasi pada teks nya */
+    text-transform: capitalize; /* mengubah seluruh huruf awal pada sebuah kata menjadi kapital  */
+    text-align: center;         /* mengatur posisi sebuah teks */
+}
+
+.tautan{
+    font-family: Arial, Helvetica, sans-serif; /*mengubah font teks nya*/
+    font-size: 150%;                           /* salah satu cara mengubah ukuran teks nya */
+    text-decoration: none;                     /* memberikan dekorasi pada teks nya */
+    text-transform: lowercase;                 /* mengubah seluruh teks nya menjadi huruf kecil semua */
+}
+
+/* aksi ketika mengarahkan crosshair ke teks yang di inginkan */
+a.tautan:hover{
+    color: deeppink;
+}
+
+/* aksi ketika mengklik teks akan berubah warna */
+a.tautan:active{
+    color: darkcyan;
+}
+
+/* aksi ketika kita telah mengklik teks nya */
+a.tautan:visited{
+    color: darkgreen;
+}
+
+
+.intro{
+    font-family: 'Segoe UI'; /*mengubah font teks nya*/
+    font-size: 1.2em;        /* salah satu cara mengubah ukuran teks nya */
+    text-align: justify;     /* mengatur posisi sebuah teks */
+}
