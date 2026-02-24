@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    width: 150px; /* lebar */
+    height: 50px; /* tinggi */
+    text-align: center;
+}
+.border{
+    border: 1px solid;
+}
+
+.padding-1{
+    background-color: cyan;
+    padding: 40px;              /* ukuran padding nya akan seluruh nya sama */
+}
+
+.padding-2{
+    background-color: burlywood;
+    /* padding: atas-bawah, kiri-kanan; */
+    padding: 20px 50px;
+}
+
+.padding-3{
+    background-color: aquamarine;
+    /* padding: atas, kiri-kanan, bawah; */
+    padding: 5px 20px 50px;
+}
+
+.padding-4{
+    background-color: cadetblue;
+    /* padding: atas, kanan, bawah, kiri; */
+    padding: 5px 10px 20px 50px;
+}
+
+/*
+    padding-block
+    padding-inline
+*/
