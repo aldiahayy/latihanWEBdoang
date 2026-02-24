@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-1{
+    /* border: tebal tipe warna; */
+    border: 2px groove brown;
+    border-bottom-width: 4px;
+}
+
+#atas-solid{
+    border-top-width: 4px;    /* untuk tebal border nya */
+    border-top-style: solid;  /* untuk style/tipe border nya */
+}
+
+#kiri-double{
+    border-color: blueviolet;  /* untuk warna border nya */
+    border-left-width: 4px;      /* untuk tebal border nya */
+    border-left-style: double;   /* untuk style/tipe border nya */
+}
+
+#bawah-dotted{
+    border-color: crimson;      /* untuk warna border nya */
+    border-bottom-width: 4px;     /* untuk tebal border nya */
+    border-bottom-style: dotted;  /* untuk style/tipe border nya */
+}
+
+#kanan-dashed{
+    border-color: crimson;     /* untuk warna border nya */
+    border-right-width: 4px;     /* untuk tebal border nya */
+    border-right-style: dashed;  /* untuk style/tipe border nya */
+}
+
+
+.border-2{
+    border-color: darkgreen;  /* untuk warna border nya */
+    border-style: solid;        /* untuk style/tipe border nya */
+    border-width: 20px;         /* ketebalan nya akan seluruhnya sama */
+}
+
+.border-3{
+    border-color: darkgreen;  /* untuk warna border nya */
+    border-style: solid;        /* untuk style/tipe border nya */
+    /* border-width: atas-bawah kiri-kanan; */
+    border-width: 20px 5px;
+}
+
+.border-4{
+    border-color: darkgreen;  /* untuk warna border nya */
+    border-style: solid;        /* untuk style/tipe border nya */
+    /* border-width: atas, kanan, bawah, kiri; */
+    border-width: 5px 10px 15px 20px;
+}
