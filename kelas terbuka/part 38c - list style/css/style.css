@@ -1,0 +1,36 @@
+*{
+    font-family: arial;
+}
+
+h1{
+    font-size: 25px;
+    color: crimson;
+}
+
+ol{
+    list-style-type: lower-roman; /* list nya akan menjadi angka romawi */
+    list-style-type: upper-latin; /* list nya akan menjadi huruf kapital semua */
+    list-style-type: lower-latin; /* list nya akan menjadi huruf kecil semua */
+    list-style-type: upper-roman; /* list nya akan menjadi angka romawi kapital*/
+    list-style-type: lower-alpha; /* sama dengan yang upper-latin */
+    list-style-type: decimal;     /* list nya akan menjadi angka */
+}
+
+ul{
+    width: 400px;
+}
+
+ul, li{
+    margin: 10px;
+    /* list posisi*/
+    list-style-position: inside; /* list nya akan ke dalam */
+    /* list-style-position: outside; */
+}
+
+ol.singkat{
+    list-style: lower-greek inside;
+}
+
+ul.singkat{
+    list-style: circle inside;
+}
