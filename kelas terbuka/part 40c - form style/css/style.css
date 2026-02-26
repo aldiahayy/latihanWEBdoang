@@ -1,0 +1,52 @@
+input{
+    font-size: 120%;
+    color: darkslategray;
+    background-color: #efefef;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 40px;
+    display: block;
+    margin-bottom: 10px;
+
+    background-repeat: no-repeat; /* menampilkan gambar di latar belakang hanya satu kali tidak berulang */
+    background-size: 20px;        /* mengatur besar background nya */
+    background-position: 8px;     /* mengatur posisi background nya */
+}
+
+/* memberikan aksi ketika kita mengetik di dalam form nya */
+input:focus{
+    background-color: #ffffff; /* background nya akan menjadi putih */
+}
+
+/* cara memanggil image/gambar di CSS */
+input#email{
+    background-image: url("../images/email.png");     /* menjadikan gambar nya sebagai latar belakang */
+}
+input#instagram{
+    background-image: url("../images/instagram.png"); /* menjadikan gambar nya sebagai latar belakang */
+}
+input#web{
+    background-image: url("../images/web.png");       /* menjadikan gambar nya sebagai latar belakang */
+}
+
+
+input#submit{
+    color: #efefef;
+    text-shadow: kanan-kiri, bawah, blur, warna;
+    text-shadow: 1px 1px 5px #ffffff;
+    background-color: darkslategray;
+    padding: 5px 10px 5px 10px;
+}
+
+/* aksi ketika kita mengarahkan croshair nya */
+input#submit:hover{
+    color: orange;
+    background-color: indigo;
+    cursor: pointer;            /* croshair nya akan berubah */
+}
+
+/* aksi ketika kita mengklik nya */
+input#submit:active{
+    color: lawngreen;
+    background-color: lightcoral;
+}
