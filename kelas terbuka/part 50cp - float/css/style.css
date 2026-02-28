@@ -1,0 +1,20 @@
+/* float */
+h1{
+    font-family: arial;
+}
+
+p{
+    font-family: arial;
+    text-align: justify;
+}
+
+blockquote{
+    float: right;             /* quote ini akan berada di sebelah kanan */
+    font-family: Georgia;
+    font-style: italic;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
