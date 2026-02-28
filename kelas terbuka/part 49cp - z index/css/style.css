@@ -1,0 +1,20 @@
+/* z-index */
+body{
+    font-family: arial;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: coral;
+    /* untuk z-index itu semakin besar nilai nya maka semakin di depan */
+    z-index: 3; /* ini akan berada di bagian atas ketika nilai nya lebih besar dari pada container nya */
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    z-index: 2;
+}
